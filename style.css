@@ -248,7 +248,8 @@ footer button{
 }
 
 .hero> :nth-child(1) {
-    font-size: 32px;
+    font-size: 45px;
+    width: 70%;
 }
 
 .hero> :nth-child(2) {
@@ -267,9 +268,9 @@ footer button{
     gap: 16px;
 }
 
-.faq h2 {
+.faqbox span {
     text-align: center;
-    font-size: 32px;
+    font-size: 15px;
 }
 .text h1{
   font-size: 30px;
