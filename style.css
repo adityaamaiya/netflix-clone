@@ -50,7 +50,6 @@ nav button {
   flex-direction: column;
   position: relative;
   text-align: center;
-  
 }
 .hero h3 {
   width: 50%;
@@ -200,16 +199,15 @@ footer {
 footer .questions {
   padding: 34px 0;
 }
-.footer-item{
+.footer-item {
   display: flex;
   flex-direction: column;
 }
-.footer-item a{
-  
+.footer-item a {
   color: inherit;
   padding-bottom: 10px;
 }
-footer button{
+footer button {
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -217,66 +215,177 @@ footer button{
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  
 }
-@media screen and (max-width: 746px) {
 
+@media (min-width: 468px) and (max-width: 746px) {
   .footer {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
   }
-  nav{
+  nav {
     max-width: 90vw;
-}
+  }
 
-.first {
+  .first {
     flex-wrap: wrap;
     padding: 20px 20px;
-}
+  }
 
-.secImg img {
+  .secImg img {
     width: 305px;
     overflow: hidden;
-}
+  }
 
-.secImg video {
-  top: -50px;
-  right: 5px;
-  width: 260px;
-  height: 300px;
-}
+  .secImg video {
+    top: -50px;
+    right: 5px;
+    width: 260px;
+    height: 300px;
+  }
 
-.hero> :nth-child(1) {
+  .hero > :nth-child(1) {
     font-size: 45px;
     width: 70%;
-}
+  }
 
-.hero> :nth-child(2) {
+  .hero > :nth-child(2) {
     font-size: 18px;
-}
+  }
 
-.hero> :nth-child(3) {
+  .hero > :nth-child(3) {
     font-size: 18px;
-}
+  }
 
-.hero-buttons {
+  .hero-buttons {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 16px;
-}
+  }
 
-.faqbox span {
+  .faqbox span {
     text-align: center;
     font-size: 15px;
+  }
+  .text h1 {
+    font-size: 30px;
+  }
+  .text p {
+    font-size: 15px;
+  }
 }
-.text h1{
-  font-size: 30px;
-}
-.text p{
-  font-size: 15px;
+@media screen and (max-width: 468px) {
+  nav {
+    max-width: 90vw;
+  }
+
+  .first {
+    flex-wrap: wrap;
+    padding: 20px 20px;
+  }
+
+  .first .text {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  .text h1{
+    font-size: 30px;
+  }
+
+  .secImg img {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .secImg video {
+    width: 100%;
+    height: 55%;
+    top: 120px;
+    right: 0;
+    transform: translateY(-50%);
+  }
+
+  .hero > :nth-child(1) {
+    font-size: 40px;
+    width: 90%;
+  }
+
+  .hero > :nth-child(2) {
+    font-size: 14px;
+  }
+
+  .hero > :nth-child(3) {
+    font-size: 14px;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .email input {
+    width: 100%;
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .email button {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .faqbox span {
+    font-size: 14px;
+    width: 90%;
+  }
+
+  .faq h1 {
+    font-size: 24px;
+  }
+
+  .faqbox {
+    width: 100%;
+  }
+
+  .get-started span {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+
+  .footer-item {
+    align-items: center;
+  }
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer-item a {
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+
+  .questions {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
 }
 
-}
