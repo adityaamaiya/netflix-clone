@@ -291,7 +291,7 @@ footer button {
     text-align: center;
     padding: 10px;
   }
-  .text h1{
+  .text h1 {
     font-size: 30px;
   }
 
@@ -363,12 +363,11 @@ footer button {
     display: grid;
     grid-template-columns: 1fr;
   }
-  
 
   .footer-item {
     align-items: center;
   }
-  footer{
+  footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -388,4 +387,3 @@ footer button {
     font-size: 14px;
   }
 }
-
