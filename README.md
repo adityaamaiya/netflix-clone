@@ -66,3 +66,5 @@ The project has been deployed to Vercel. Visit the live demo [here](https://nfli
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+[![Demo](https://i.imgur.com/64jhqbj.png)](https://youtu.be/xIu_E_vqC7E)
