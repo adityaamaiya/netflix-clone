@@ -52,12 +52,17 @@ To use this project locally, follow these steps:
 
 ## Demo
 
-<p align="center">
+Click on the image to watch the demo video.
+
+[![Demo](https://i.imgur.com/64jhqbj.png)](https://youtu.be/xIu_E_vqC7E)
+
+<!-- or below both looks and works same -->
+<!-- <p align="center">
    Click on the image to watch the demo video.
   <a href="https://youtu.be/xIu_E_vqC7E">
   <img src="https://i.imgur.com/64jhqbj.png" alt="landing Page" />
   </a>
-</p>
+</p> -->
 
 ## Deployment
 
@@ -66,5 +71,3 @@ The project has been deployed to Vercel. Visit the live demo [here](https://nfli
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-[![Demo](https://i.imgur.com/64jhqbj.png)](https://youtu.be/xIu_E_vqC7E)
