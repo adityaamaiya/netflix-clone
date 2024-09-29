@@ -52,7 +52,11 @@ To use this project locally, follow these steps:
 
 ## Demo
 
-[Watch Demo](https://youtu.be/xIu_E_vqC7E)
+<p align="center">
+  <a href="https://youtu.be/xIu_E_vqC7E">
+  <img src="https://i.imgur.com/64jhqbj.png" alt="landing Page" />
+  </a>
+</p>
 
 ## Deployment
 
