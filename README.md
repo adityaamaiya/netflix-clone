@@ -53,6 +53,7 @@ To use this project locally, follow these steps:
 ## Demo
 
 <p align="center">
+   Click on the image to watch the demo video.
   <a href="https://youtu.be/xIu_E_vqC7E">
   <img src="https://i.imgur.com/64jhqbj.png" alt="landing Page" />
   </a>
