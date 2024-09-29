@@ -59,9 +59,6 @@ To use this project locally, follow these steps:
   </a>
 </p>
 
-<iframe width="560" height="315" src="https://youtu.be/xIu_E_vqC7E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 ## Deployment
 
 The project has been deployed to Vercel. Visit the live demo [here](https://nflix-clone-ten-rouge.vercel.app/).
